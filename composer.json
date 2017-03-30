@@ -1,0 +1,31 @@
+{
+    "name": "slave13043712/module-bestinclassexperience",
+    "description": "Module that provides promised best in class experience.",
+    "authors": [
+        {
+            "name": "Alexander Akimov",
+            "email": "slave13043712@users.noreply.github.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6.5|~7.0",
+        "magento/framework": "100.2.*",
+        "magento/magento-composer-installer": "*",
+        "magento/module-theme": "100.2.*",
+        "magento/module-ui": "100.2.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Fun\\BestInClassExperience\\": ""
+        }
+    }
+}
